@@ -1,0 +1,38 @@
+.team {
+  margin-bottom: 60px;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+}
+
+.team-member {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.team-member:last-child {
+  margin-bottom: 0;
+}
+
+.member-name {
+  font-weight: 500;
+}
+
+.member-email {
+  color: #000000;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.member-email:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    font-size: 15px;
+  }
+}
