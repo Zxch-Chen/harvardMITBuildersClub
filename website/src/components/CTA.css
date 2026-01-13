@@ -3,7 +3,7 @@
 }
 
 .cta-question {
-  font-size: 32px;
+  font-size: 16px;
   margin-bottom: 16px;
   color: hsl(var(--foreground));
 }
@@ -15,7 +15,7 @@
 .cta-link {
   color: hsl(var(--foreground));
   text-decoration: underline;
-  font-size: 32px;
+  font-size: 16px;
   cursor: pointer;
   transition: opacity ease-in 0.2s;
 }
@@ -25,7 +25,7 @@
 }
 
 .cta-message {
-  font-size: 32px;
+  font-size: 16px;
   color: hsl(var(--foreground));
   margin: 0;
 }
@@ -34,6 +34,6 @@
   .cta-question,
   .cta-link,
   .cta-message {
-    font-size: 30px;
+    font-size: 15px;
   }
 }

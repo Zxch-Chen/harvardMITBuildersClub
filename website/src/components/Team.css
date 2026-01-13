@@ -8,7 +8,7 @@
 }
 
 .team-member {
-  font-size: 32px;
+  font-size: 16px;
   margin-bottom: 12px;
   color: hsl(var(--foreground));
 }
@@ -33,6 +33,6 @@
 
 @media (max-width: 768px) {
   .team-member {
-    font-size: 30px;
+    font-size: 15px;
   }
 }
