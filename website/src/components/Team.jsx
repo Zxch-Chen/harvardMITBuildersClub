@@ -2,10 +2,9 @@ import './Team.css';
 
 function Team() {
   const teamMembers = [
-    { name: 'Team Member One', email: 'member1@college.harvard.edu' },
-    { name: 'Team Member Two', email: 'member2@college.harvard.edu' },
-    { name: 'Team Member Three', email: 'member3@mit.edu' },
-    { name: 'Team Member Four', email: 'member4@college.harvard.edu' },
+    { name: 'Zach Chen', email: 'zachchen@college.harvard.edu' },
+    { name: 'Anthony Donegan', email: 'ajzd@mit.edu' },
+  
   ];
 
   return (

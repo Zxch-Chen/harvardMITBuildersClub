@@ -3,9 +3,9 @@
 }
 
 .cta-question {
-  font-size: 16px;
+  font-size: 32px;
   margin-bottom: 16px;
-  color: #1a1a1a;
+  color: hsl(var(--foreground));
 }
 
 .cta-link-container {
@@ -13,11 +13,11 @@
 }
 
 .cta-link {
-  color: #000000;
+  color: hsl(var(--foreground));
   text-decoration: underline;
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
-  transition: opacity 0.2s;
+  transition: opacity ease-in 0.2s;
 }
 
 .cta-link:hover {
@@ -25,8 +25,8 @@
 }
 
 .cta-message {
-  font-size: 16px;
-  color: #1a1a1a;
+  font-size: 32px;
+  color: hsl(var(--foreground));
   margin: 0;
 }
 
@@ -34,6 +34,6 @@
   .cta-question,
   .cta-link,
   .cta-message {
-    font-size: 15px;
+    font-size: 30px;
   }
 }

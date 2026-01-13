@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-family: 'Crimson Text', 'Times New Roman', serif;
+  font-size: 32px;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: opacity ease-in 0.2s;
+  opacity: 0.6;
+}
+
+.nav-button:hover {
+  opacity: 1;
+}
+
+.nav-button.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav-button {
+    font-size: 30px;
+  }
+}

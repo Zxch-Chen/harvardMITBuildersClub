@@ -12,7 +12,6 @@ function Header() {
         </div>
         <h1 className="club-name">Harvard MIT Builders Club</h1>
       </div>
-      <p className="tagline">Building the future, one project at a time.</p>
     </header>
   );
 }

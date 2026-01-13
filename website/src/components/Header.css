@@ -18,17 +18,10 @@
 }
 
 .club-name {
-  font-size: 32px;
+  font-size: 64px;
   font-weight: 400;
   letter-spacing: -0.5px;
   margin: 0;
-}
-
-.tagline {
-  font-size: 16px;
-  color: #333;
-  margin: 0;
-  font-weight: 300;
 }
 
 @media (max-width: 768px) {
@@ -38,10 +31,6 @@
   }
 
   .club-name {
-    font-size: 24px;
-  }
-
-  .tagline {
-    font-size: 14px;
+    font-size: 48px;
   }
 }

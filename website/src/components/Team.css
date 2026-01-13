@@ -8,9 +8,9 @@
 }
 
 .team-member {
-  font-size: 16px;
+  font-size: 32px;
   margin-bottom: 12px;
-  color: #1a1a1a;
+  color: hsl(var(--foreground));
 }
 
 .team-member:last-child {
@@ -22,9 +22,9 @@
 }
 
 .member-email {
-  color: #000000;
+  color: hsl(var(--foreground));
   text-decoration: underline;
-  transition: opacity 0.2s;
+  transition: opacity ease-in 0.2s;
 }
 
 .member-email:hover {
@@ -33,6 +33,6 @@
 
 @media (max-width: 768px) {
   .team-member {
-    font-size: 15px;
+    font-size: 30px;
   }
 }
