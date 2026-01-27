@@ -1,20 +1,36 @@
+
 .header {
   text-align: center;
   margin-bottom: 60px;
+  position: relative;
+  padding: 0;
+  margin-top: 0;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
+
+.logo-fixed {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 9999;
 }
 
-.logo-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 128px; /* space for fixed logo (top offset + logo height + small gap) */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-img {
+  width: 112px; /* 160px * 0.7 = 112px */
+  height: 112px;
+  object-fit: contain;
+  display: block;
 }
 
 .club-name {
@@ -25,12 +41,18 @@
 }
 
 @media (max-width: 768px) {
-  .logo-container {
-    flex-direction: column;
-    gap: 10px;
+  .header-content {
+    padding-top: 96px;
   }
-
   .club-name {
     font-size: 24px;
+  }
+  .logo-img {
+    width: 80px;
+    height: 80px;
+  }
+  .logo-fixed {
+    top: 0;
+    left: 0;
   }
 }
