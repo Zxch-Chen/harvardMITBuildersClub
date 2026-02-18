@@ -1,4 +1,4 @@
-# Harvard MIT Builders Club
+# Cambridge Collider
 
 A community of builders, innovators, and creators from Harvard and MIT.
 
