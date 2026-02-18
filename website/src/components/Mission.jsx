@@ -19,7 +19,7 @@ function Mission() {
         </p>
       </div>
       
-      <h2 className="mission-heading">The Harvard MIT Builders Club</h2>
+      <h2 className="mission-heading">The Cambridge Collider</h2>
       <div className="mission-content">
         <p>
           We are that circle. We are a community of deep thinkers and technical architects who 
@@ -30,6 +30,19 @@ function Mission() {
           Do not think of us as a club. Think of us as a guild bound by conviction, shared vision, 
           and the raw drive to build what others only imagine. As Steve Jobs famously noted, the 
           world around you was built by people no smarter than you. We are here to prove him right.
+        </p>
+        <hr style={{ border: 'none', borderTop: '1px solid #ddd', margin: '2rem 0' }} />
+        <p>
+          <strong>What we do:</strong> Provide a bridge between the Harvard & MIT ecosystems and provide API credits, and hardware to students who want to build.
+        </p>
+        <p>
+          <strong>Early Goal:</strong> Have a small group of highly technical, ambitious young people who want to create cool projects.
+        </p>
+        <p>
+          <strong>Middle Goal:</strong> Allow wide access to tools for builders including API credits and hardware that students can use.
+        </p>
+        <p>
+          <strong>End goal:</strong> We create companies that create 10B+ in value and help shape the future for the better of humanity.
         </p>
       </div>
     </section>

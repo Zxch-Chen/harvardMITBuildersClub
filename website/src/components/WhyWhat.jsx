@@ -9,7 +9,7 @@ function WhyWhat() {
           Harvard and MIT represent the world's highest concentration of intellectual and technical talent. Yet, despite being separated by only a few blocks, our ecosystems remain siloed. This invisible wall stalls innovation and leaves immense potential untapped.
         </p>
         <p>
-          The Harvard MIT Builders Club exists to tear down these silos. We believe the next generation of "unicorns"—and the solutions to our era's most pressing challenges—will not be built in isolation. By bridging the gap between Harvard's vision and MIT's technical mastery, we are creating a unified forge for the world's most ambitious builders.
+          The Cambridge Collider exists to tear down these silos. We believe the next generation of "unicorns"—and the solutions to our era's most pressing challenges—will not be built in isolation. By bridging the gap between Harvard's vision and MIT's technical mastery, we are creating a unified forge for the world's most ambitious builders.
         </p>
       </div>
       

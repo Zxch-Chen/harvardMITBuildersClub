@@ -1,6 +1,6 @@
-# Harvard MIT Builders Club Website
+# Cambridge Collider Website
 
-A minimalistic React website for the Harvard MIT Builders Club, styled after the Foundry website design.
+A minimalistic React website for the Cambridge Collider, styled after the Foundry website design.
 
 ## Getting Started
 

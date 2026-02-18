@@ -4,7 +4,7 @@ function Team() {
   const teamMembers = [
     { name: 'Zach Chen', email: 'zachchen@college.harvard.edu' },
     { name: 'Anthony Donegan', email: 'ajzd@mit.edu' },
-  
+    { name: 'Adam Eliztur', email: 'elitzur@mit.edu' },
   ];
 
   return (
