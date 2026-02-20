@@ -23,10 +23,10 @@ function WhyWhat() {
       <h3 className="mission-subheading">Our Strategy</h3>
       <div className="mission-content">
         <p>
-          <strong>Community:</strong> Facilitating consistent, high-impact networking opportunities.
+          <strong>Community:</strong> Facilitating consistent spaces for Harvard and MIT students to meet. 
         </p>
         <p>
-          <strong>Workspace:</strong> Hosting dedicated builds and hack-sessions for interdisciplinary teams.
+          <strong>Workspace:</strong> Hosting dedicated builds and hack-sessions for teams that want to create.
         </p>
         <p>
           <strong>Resources:</strong> Supplying students with the necessary API credits and hardware to build at the speed of thought.
